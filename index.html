@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>PCA Image Compression App Design</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 0 20px;
+      line-height: 1.6;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+      max-width: 1000px;
+      margin: 30px auto;
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+
+<body>
+
+<h1>PCA Image Compression App Design</h1>
+
+<p>
+This app would allow a user to upload an image, choose a PCA compression
+level using the rank k, and compare the compressed image with the original.
+</p>
+
+<img src="pca-app-mockup.png"
+     alt="Mockup of PCA image compression application">
+
+<h2>Design Description</h2>
+
+<p>
+The controls are placed in a sidebar on the left so that they are easy to
+find without taking space away from the image comparison. The user first
+uploads an image and then selects the compression level using a slider for k.
+</p>
+
+<p>
+The original image and compressed image are displayed side by side so that
+the user can immediately compare the effect of compression. A smaller value
+of k gives more compression but loses more image detail, while a larger value
+of k preserves more of the original image.
+</p>
+
+</body>
+</html>
